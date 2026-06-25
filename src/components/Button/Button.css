@@ -1,0 +1,35 @@
+.primary-button {
+  background: linear-gradient(
+    135deg,
+    var(--gold),
+    var(--gold-light)
+  );
+
+  color: white;
+
+  border: none;
+
+  border-radius: 999px;
+
+  padding: 18px 42px;
+
+  font-size: 18px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: var(--transition);
+
+  box-shadow: var(--shadow-sm);
+}
+
+.primary-button:hover {
+  transform: translateY(-4px);
+
+  box-shadow: var(--shadow-lg);
+}
+
+.primary-button:active {
+  transform: translateY(-2px);
+}
