@@ -1,35 +1,44 @@
-.primary-button {
-  background: linear-gradient(
-    135deg,
-    var(--gold),
-    var(--gold-light)
-  );
+.primary-button{
 
-  color: white;
+    margin-top:50px;
 
-  border: none;
+    padding:22px 48px;
 
-  border-radius: 999px;
+    border:none;
 
-  padding: 18px 42px;
+    border-radius:999px;
 
-  font-size: 18px;
+    background:linear-gradient(
+        135deg,
+        #C8A24A,
+        #D9B65A
+    );
 
-  font-weight: 600;
+    color:white;
 
-  cursor: pointer;
+    font-size:20px;
 
-  transition: var(--transition);
+    font-weight:700;
 
-  box-shadow: var(--shadow-sm);
+    cursor:pointer;
+
+    transition:.35s;
+
+    box-shadow:
+
+        0 20px 50px rgba(200,162,74,.35);
+
 }
 
-.primary-button:hover {
-  transform: translateY(-4px);
+.primary-button:hover{
 
-  box-shadow: var(--shadow-lg);
-}
+    transform:
 
-.primary-button:active {
-  transform: translateY(-2px);
+        translateY(-6px)
+        scale(1.02);
+
+    box-shadow:
+
+        0 30px 70px rgba(200,162,74,.45);
+
 }
