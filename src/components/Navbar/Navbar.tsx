@@ -1,51 +1,26 @@
 import "./Navbar.css";
+import logo from "../../assets/logos/65north-logo.png";
 
-function App() {
+function Navbar() {
   return (
-    <>
-      <header className="hero">
+    <nav className="navbar">
+      <div className="logo">
+        <img
+          src={logo}
+          alt="65 North Hospitality Group"
+          className="logo-image"
+        />
+      </div>
 
-        <div className="overlay"></div>
-
-        <nav className="navbar">
-
-          <div className="logo">
-            65 NORTH
-          </div>
-
-          <ul>
-            <li>Home</li>
-            <li>Onboarding</li>
-            <li>Training</li>
-            <li>Resources</li>
-            <li>Contact</li>
-          </ul>
-
-        </nav>
-
-        <div className="hero-content">
-
-          <h4>North of Ordinary Hospitality</h4>
-
-          <h1>
-            Welcome to the
-            <br />
-            65 North Family
-          </h1>
-
-          <p>
-            Your journey starts here.
-          </p>
-
-          <button>
-            Begin Your Journey
-          </button>
-
-        </div>
-
-      </header>
-    </>
-  )
+      <ul>
+        <li>Home</li>
+        <li>Onboarding</li>
+        <li>Training</li>
+        <li>Resources</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  );
 }
 
-export default App
+export default Navbar;
