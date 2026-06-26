@@ -1,18 +1,21 @@
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import BrandShowcase from "./components/BrandShowcase/BrandShowcase";
 
 function App() {
   return (
-    <header className="hero">
+    <>
+      <header className="hero">
+        <div className="overlay"></div>
 
-      <div className="overlay"></div>
+        <Navbar />
 
-      <Navbar />
+        <Hero />
+      </header>
 
-      <Hero />
-
-    </header>
+      <BrandShowcase />
+    </>
   );
 }
 

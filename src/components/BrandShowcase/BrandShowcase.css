@@ -1,0 +1,47 @@
+.brand-showcase {
+  text-align: center;
+}
+
+.brand-showcase h2 {
+  margin-bottom: 18px;
+}
+
+.brand-intro {
+  color: var(--text-light);
+  margin-bottom: 60px;
+}
+
+.brand-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.brand-card {
+  background: white;
+  border-radius: var(--radius);
+  padding: 40px 30px;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.brand-card:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--shadow-lg);
+}
+
+.brand-logo-placeholder {
+  height: 120px;
+  border: 2px dashed var(--gold);
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 24px;
+}
+
+.brand-card h3 {
+  margin-bottom: 16px;
+}
